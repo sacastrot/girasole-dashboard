@@ -1,0 +1,34 @@
+{
+  "generadoEn": "2026-07-13T19:08:43.401262+00:00",
+  "crsOrigen": "EPSG:9377",
+  "crsSalida": "EPSG:4326",
+  "toleranciaSimplificacionMetros": 20,
+  "versionEsquema": "1.0.0",
+  "totalVeredas": 1068,
+  "proyectos": [
+    {
+      "id": "nordeste",
+      "nombre": "Interconexión Nordeste",
+      "archivo": "nordeste.geojson",
+      "veredas": 345
+    },
+    {
+      "id": "aguaclara",
+      "nombre": "Subestación Aguaclara",
+      "archivo": "aguaclara.geojson",
+      "veredas": 111
+    },
+    {
+      "id": "oriental",
+      "nombre": "Interconexión Antioquia Oriental",
+      "archivo": "oriental.geojson",
+      "veredas": 430
+    },
+    {
+      "id": "amanecer",
+      "nombre": "Subestación Amanecer",
+      "archivo": "amanecer.geojson",
+      "veredas": 182
+    }
+  ]
+}

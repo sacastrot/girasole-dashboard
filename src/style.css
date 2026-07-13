@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  /* Estados de foco visibles y consistentes en toda la aplicación */
+  :focus-visible {
+    outline: 2px solid #1959b8;
+    outline-offset: 2px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: theme('colors.isa-gray.400');
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}
+
+/* Respeta la preferencia del usuario por menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Popups de Leaflet: adaptación al tema claro/oscuro */
+.leaflet-popup-content-wrapper {
+  border-radius: 0.5rem;
+}
+html.dark .leaflet-popup-content-wrapper,
+html.dark .leaflet-popup-tip {
+  background-color: #101722;
+  color: #d7dee8;
+}
+html.dark .leaflet-container {
+  background-color: #0b2545;
+}

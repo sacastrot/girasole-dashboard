@@ -1,0 +1,10 @@
+# Dependencias de Python para el preprocesamiento de datos de Girasole.
+# Instalar con: pip install -r requirements.txt
+# Este script se ejecuta únicamente en el equipo de desarrollo.
+# Versiones probadas y reproducibles.
+
+pandas>=2.1,<3.1
+geopandas>=0.14,<1.2
+shapely>=2.0,<2.2
+pyproj>=3.6,<3.8
+numpy>=1.26,<2.5

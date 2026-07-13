@@ -1,0 +1,25 @@
+# Node
+node_modules/
+dist/
+.vite/
+
+# Entornos Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Variables de entorno locales
+.env
+.env.local
+
+# Datos de entrada reales (no deben subirse al repositorio público)
+data/raw/*.csv
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
