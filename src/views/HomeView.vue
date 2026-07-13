@@ -2,7 +2,7 @@
   <main class="max-w-7xl mx-auto px-4 sm:px-6 py-8 flex flex-col gap-8">
     <section class="max-w-3xl">
       <p class="text-xs font-semibold uppercase tracking-wide text-girasole-orange mb-2">
-        Dirección de Proyectos · ISA Interconexión Eléctrica S.A.
+        ISA Impact · Girasole
       </p>
       <h2 class="text-2xl sm:text-3xl font-semibold text-isa-navy dark:text-white leading-tight">
         Análisis territorial para la expansión y la electrificación rural

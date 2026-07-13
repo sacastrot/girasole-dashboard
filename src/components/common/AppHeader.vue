@@ -21,7 +21,7 @@
 
         <div class="min-w-0">
           <p class="text-[11px] font-medium text-isa-gray-500 dark:text-isa-gray-400 leading-none">
-            {{ errorLogo ? 'Girasole' : 'ISA Interconexión Eléctrica · Girasole' }}
+            {{ errorLogo ? 'Girasole' : 'ISA Impact · Girasole' }}
           </p>
           <h1
             class="text-sm sm:text-base font-semibold text-isa-navy dark:text-white truncate leading-tight"
