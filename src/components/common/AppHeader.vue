@@ -24,9 +24,13 @@
             {{ errorLogo ? 'Girasole' : 'ISA Impact · Girasole' }}
           </p>
           <h1
-            class="text-sm sm:text-base font-semibold text-isa-navy dark:text-white truncate leading-tight"
+            class="text-sm sm:text-base font-semibold text-isa-navy dark:text-white truncate leading-tight inline-flex items-center gap-1.5"
           >
             Dashboard plan de expansión ISA
+            <span v-if="proyectoActual" class="inline-flex items-center gap-1.5 file:text-sm sm:text-base text-isa-gray-500 dark:text-isa-gray-400 truncate">
+              <span class="w-1.5 h-1.5 rounded-full bg-isa-navy" aria-hidden="true"></span>
+              {{ proyectoActual.nombre }}
+            </span>
           </h1>
         </div>
       </div>
